@@ -26,7 +26,7 @@
     margin-left: 0.5mm;
     background:#1F3554;
     color:#fff;
-    padding:0 3.528mm 2.47mm 3.881mm;
+    padding:0 3.528mm 1.2mm 3.881mm;
     overflow:hidden;
     border-top-left-radius:29.85mm;
     border-top-right-radius:29.85mm;
@@ -51,51 +51,47 @@
   .sb-h{
     color:#fff;
     font-weight:bold;
-    font-size:16pt;
+    font-size:12.5pt;
     border-bottom:1.75pt solid #7FA8D0;
     padding-bottom:0mm;
     margin-top:0mm;
-    margin-bottom:1.3mm;
+    margin-bottom:0.8mm;
   }
   .sb-h.first{ margin-top:0; }
   .sb-body{
     color:#DDE6F0;
     font-size:8.5pt;
-    line-height:1.28;
-    margin-bottom:1.6mm;
+    line-height:1.12;
+    margin-bottom:0.8mm;
   }
   .sb-label{
     color:#fff;
     font-weight:bold;
     font-size:8.5pt;
-    line-height:1.25;
-    margin-bottom:0.4mm;
+    line-height:1.1;
+    margin-bottom:0.2mm;
   }
   .sb-value{
     color:#DDE6F0;
     font-size:8.5pt;
-    line-height:1.28;
-    margin-bottom:1.6mm;
-  }
-  .name{
-    color:#1F3554;
-    font-weight:bold;
-    font-size:23pt;
-    line-height:1.15;
+    line-height:1.12;
     margin-bottom:0.8mm;
   }
-  .subtitle{
-    color:#2E75B6;
+  .sb-name{
+    color:#fff;
     font-weight:bold;
     font-size:14pt;
-    line-height:1.15;
-    margin-bottom:1mm;
+    line-height:1.1;
+    text-align:center;
+    margin-bottom:0.6mm;
   }
-  .tagline{
-    color:#555555;
-    font-style:italic;
-    font-size:9pt;
-    margin-bottom:1.2mm;
+  .sb-subtitle{
+    color:#7FA8D0;
+    font-weight:bold;
+    font-size:9.5pt;
+    line-height:1.1;
+    text-align:center;
+    margin-bottom:1.5mm;
   }
   .main-h{
     color:#1F3554;
@@ -170,6 +166,31 @@
     line-height:1.32;
     margin-bottom:0.4mm;
   }
+  .bottom-row{
+    display:flex;
+    gap:6mm;
+  }
+  .bottom-col{
+    flex:1;
+    min-width:0;
+  }
+  .cert-line{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:1.2mm;
+  }
+  .cert-badge{
+    flex-shrink:0;
+    display:inline-flex;
+    color:#7FA8D0;
+    text-decoration:none;
+  }
+  .cert-badge svg{
+    width:2.6mm;
+    height:2.6mm;
+    fill:currentColor;
+  }
 </style>
 </head>
 <body>
@@ -179,6 +200,9 @@
     <div class="photo-wrap">
       <img class="photo" src="photo.png" alt="Hamza Oujja">
     </div>
+
+    <div class="sb-name">HAMZA OUJJA</div>
+    <div class="sb-subtitle">Ingénieur IA &amp; Data</div>
 
     <div class="sb-h first">CONTACT</div>
     <div class="sb-value">Courbevoie, France</div>
@@ -205,32 +229,24 @@
 
     <div class="sb-h">CERTIFICATIONS</div>
     <div class="sb-label">Microsoft</div>
-    <div class="sb-value">AI-103 (Azure AI Apps &amp; Agents Engineer)</div>
-    <div class="sb-value">AI-300 (MLOps Engineer)</div>
-    <div class="sb-value">AI-102 (Azure AI Engineer)</div>
-    <div class="sb-value">AI-900 (Azure AI Fundamentals)</div>
-    <div class="sb-value">DP-900 (Azure Data Fundamentals)</div>
-    <div class="sb-value">PL-300 (Power BI Data Analyst)</div>
+    <div class="sb-value cert-line">AI-103 (Azure AI Apps &amp; Agents Engineer)<a class="cert-badge" href="#" target="_blank" rel="noopener" title="Voir le badge" aria-label="Voir le badge AI-103"><svg viewBox="0 0 24 24"><path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3z"/><path d="M5 5h6v2H7v10h10v-4h2v6H5V5z"/></svg></a></div>
+    <div class="sb-value cert-line">AI-300 (MLOps Engineer)<a class="cert-badge" href="#" target="_blank" rel="noopener" title="Voir le badge" aria-label="Voir le badge AI-300"><svg viewBox="0 0 24 24"><path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3z"/><path d="M5 5h6v2H7v10h10v-4h2v6H5V5z"/></svg></a></div>
+    <div class="sb-value cert-line">AI-102 (Azure AI Engineer)<a class="cert-badge" href="#" target="_blank" rel="noopener" title="Voir le badge" aria-label="Voir le badge AI-102"><svg viewBox="0 0 24 24"><path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3z"/><path d="M5 5h6v2H7v10h10v-4h2v6H5V5z"/></svg></a></div>
+    <div class="sb-value cert-line">AI-900 (Azure AI Fundamentals)<a class="cert-badge" href="#" target="_blank" rel="noopener" title="Voir le badge" aria-label="Voir le badge AI-900"><svg viewBox="0 0 24 24"><path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3z"/><path d="M5 5h6v2H7v10h10v-4h2v6H5V5z"/></svg></a></div>
+    <div class="sb-value cert-line">DP-900 (Azure Data Fundamentals)<a class="cert-badge" href="#" target="_blank" rel="noopener" title="Voir le badge" aria-label="Voir le badge DP-900"><svg viewBox="0 0 24 24"><path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3z"/><path d="M5 5h6v2H7v10h10v-4h2v6H5V5z"/></svg></a></div>
+    <div class="sb-value cert-line">PL-300 (Power BI Data Analyst)<a class="cert-badge" href="#" target="_blank" rel="noopener" title="Voir le badge" aria-label="Voir le badge PL-300"><svg viewBox="0 0 24 24"><path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3z"/><path d="M5 5h6v2H7v10h10v-4h2v6H5V5z"/></svg></a></div>
     <div class="sb-label">Python Institute</div>
-    <div class="sb-value">PCEP</div>
+    <div class="sb-value cert-line">PCEP<a class="cert-badge" href="#" target="_blank" rel="noopener" title="Voir le badge" aria-label="Voir le badge PCEP"><svg viewBox="0 0 24 24"><path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3z"/><path d="M5 5h6v2H7v10h10v-4h2v6H5V5z"/></svg></a></div>
     <div class="sb-label">Dataiku</div>
-    <div class="sb-value">ML Practitioner, MLOps Practitioner, Advanced Designer, Core Designer</div>
+    <div class="sb-value cert-line">ML Practitioner<a class="cert-badge" href="#" target="_blank" rel="noopener" title="Voir le badge" aria-label="Voir le badge ML Practitioner"><svg viewBox="0 0 24 24"><path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3z"/><path d="M5 5h6v2H7v10h10v-4h2v6H5V5z"/></svg></a></div>
+    <div class="sb-value cert-line">MLOps Practitioner<a class="cert-badge" href="#" target="_blank" rel="noopener" title="Voir le badge" aria-label="Voir le badge MLOps Practitioner"><svg viewBox="0 0 24 24"><path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3z"/><path d="M5 5h6v2H7v10h10v-4h2v6H5V5z"/></svg></a></div>
+    <div class="sb-value cert-line">Advanced Designer<a class="cert-badge" href="#" target="_blank" rel="noopener" title="Voir le badge" aria-label="Voir le badge Advanced Designer"><svg viewBox="0 0 24 24"><path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3z"/><path d="M5 5h6v2H7v10h10v-4h2v6H5V5z"/></svg></a></div>
+    <div class="sb-value cert-line">Core Designer<a class="cert-badge" href="#" target="_blank" rel="noopener" title="Voir le badge" aria-label="Voir le badge Core Designer"><svg viewBox="0 0 24 24"><path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3z"/><path d="M5 5h6v2H7v10h10v-4h2v6H5V5z"/></svg></a></div>
     <div class="sb-label">TOEIC</div>
     <div class="sb-value">820 points</div>
-
-    <div class="sb-h">LANGUES</div>
-    <div class="sb-value">Français — Bilingue</div>
-    <div class="sb-value">Anglais — Courant (C2)</div>
-
-    <div class="sb-h">INTÉRÊTS</div>
-    <div class="sb-value">Compétitions académiques, bénévolat, musique, tennis</div>
   </div>
 
   <div class="main">
-    <div class="name">HAMZA OUJJA</div>
-    <div class="subtitle">Ingénieur IA &amp; Data</div>
-    <div class="tagline">Machine Learning · MLOps · Data Engineering · Risque Quantitatif</div>
-
     <div class="main-h first">EXPÉRIENCES PROFESSIONNELLES</div>
 
     <div class="entry-title"><span class="job">Alternance | Ingénieur IA &amp; Data</span> <span class="org">| SFIL – Direction des Risques Marchés  – Paris</span></div>
@@ -297,6 +313,17 @@
 
     <div class="edu-title"><span class="school">CPGE – Lycée Gustave Monod, Enghien-les-Bains</span> <span class="years">2018 – 2021</span></div>
     <div class="edu-body">Classes préparatoires aux grandes écoles – Maths / Physique</div>
+
+    <div class="bottom-row">
+      <div class="bottom-col">
+        <div class="main-h">LANGUES</div>
+        <div class="edu-body">Français — Bilingue<br>Anglais — Courant (C2)</div>
+      </div>
+      <div class="bottom-col">
+        <div class="main-h">INTÉRÊTS</div>
+        <div class="edu-body">Compétitions académiques, bénévolat, musique, tennis</div>
+      </div>
+    </div>
   </div>
 
 </div>
