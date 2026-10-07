@@ -1,0 +1,232 @@
+@page {
+    size: A4;
+    margin: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: Calibri, "Segoe UI", Arial, sans-serif;
+    color: #000;
+    background: #fff;
+}
+
+.page {
+    width: 210mm;
+    min-height: 297mm;
+    margin: 0 auto;
+    background: #fff;
+    display: flex;
+    padding: 0mm 0mm;
+    border: 0.75pt solid #000;
+    box-sizing: border-box;
+}
+
+.sidebar {
+    width: 29.94%;
+    margin-left: 0.5mm;
+    background: #1F3554;
+    color: #fff;
+    padding: 0 3.528mm 1.2mm 3.881mm;
+    overflow: hidden;
+    border-top-left-radius: 29.85mm;
+    border-top-right-radius: 29.85mm;
+}
+
+.main {
+    width: 70.06%;
+    padding: 2.47mm 2.117mm 2.47mm 4.94mm;
+}
+
+.photo-wrap {
+    margin-left: -3.881mm;
+    margin-right: -3.528mm;
+    margin-top: 0.3%;
+    width: calc(100% + 3.881mm + 3.528mm);
+    margin-bottom: 0mm;
+    text-align: center;
+}
+
+.photo {
+    width: 98%;
+    height: auto;
+    display: inline-block;
+}
+
+.sb-h {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 12.5pt;
+    border-bottom: 1.75pt solid #A9D2F5;
+    padding-bottom: 0mm;
+    margin-top: 5mm;
+    margin-bottom: 0.8mm;
+}
+
+.sb-h.first {
+    margin-top: 0;
+}
+
+.sb-body {
+    color: #DDE6F0;
+    font-size: 8.5pt;
+    line-height: 1.12;
+    margin-bottom: 0.8mm;
+}
+
+.sb-label {
+    color: #BFE1FF;
+    font-weight: bold;
+    font-size: 8.5pt;
+    line-height: 1.1;
+    margin-bottom: 0.2mm;
+}
+
+.sb-value {
+    color: #ffffff;
+    font-size: 8.5pt;
+    line-height: 1.12;
+    margin-bottom: 0.8mm;
+}
+
+.sb-name {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 24pt;
+    line-height: 1.1;
+    text-align: center;
+    margin-bottom: 0.6mm;
+}
+
+.sb-subtitle {
+    color: #BFE1FF;
+    font-weight: bold;
+    font-size: 9.5pt;
+    line-height: 1.1;
+    text-align: center;
+    margin-bottom: 5mm;
+}
+
+.main-h {
+    color: #2E75B6;
+    font-weight: bold;
+    font-size: 12pt;
+    border-bottom: 1pt solid #2E75B6;
+    padding-bottom: 1mm;
+    margin-top: 2.8mm;
+    margin-bottom: 1.3mm;
+}
+
+.main-h.first {
+    margin-top: 0;
+}
+
+.entry-title {
+    margin-top: 1.7mm;
+    margin-bottom: 0.3mm;
+    font-size: 9.5pt;
+}
+
+.entry-title .job {
+    color: #222222;
+    font-weight: bold;
+}
+
+.entry-title .org {
+    color: #2E75B6;
+    font-weight: normal;
+}
+
+.entry-date {
+    color: #555555;
+    font-style: italic;
+    font-size: 8.5pt;
+    margin-bottom: 0.7mm;
+}
+
+ul.entry-list {
+    list-style: disc outside;
+    margin: 0 0 0.3mm 4.2mm;
+    padding: 0;
+}
+
+ul.entry-list li {
+    color: #333333;
+    font-size: 8.5pt;
+    line-height: 1.32;
+    margin-bottom: 0.35mm;
+}
+
+.proj-title {
+    color: #222222;
+    font-weight: bold;
+    font-size: 9.5pt;
+    margin-top: 1mm;
+    margin-bottom: 0.2mm;
+}
+
+.proj-body {
+    color: #333333;
+    font-size: 8.5pt;
+    line-height: 1.32;
+    margin-bottom: 0.4mm;
+}
+
+.edu-title {
+    font-size: 9.5pt;
+    margin-top: 0.9mm;
+    margin-bottom: 0.2mm;
+}
+
+.edu-title .school {
+    color: #222222;
+    font-weight: bold;
+}
+
+.edu-title .years {
+    color: #555555;
+    font-style: italic;
+    font-size: 8.5pt;
+}
+
+.edu-body {
+    color: #333333;
+    font-size: 8.5pt;
+    line-height: 1.32;
+    margin-bottom: 0.4mm;
+}
+
+.bottom-row {
+    display: flex;
+    gap: 6mm;
+}
+
+.bottom-col {
+    flex: 1;
+    min-width: 0;
+}
+
+.cert-line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.2mm;
+}
+
+.cert-badge {
+    flex-shrink: 0;
+    display: inline-flex;
+    color: #BFE1FF;
+    text-decoration: none;
+}
+
+.cert-badge svg {
+    width: 2.6mm;
+    height: 2.6mm;
+    fill: currentColor;
+}
