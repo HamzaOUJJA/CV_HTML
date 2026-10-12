@@ -23,7 +23,7 @@ body {
     background: #fff;
     display: flex;
     padding: 0mm 0mm;
-    border: 0.75pt solid #000;
+    border: 0.75pt solid #d10f0f;
     box-sizing: border-box;
 }
 
@@ -92,6 +92,19 @@ body {
     font-size: 8.5pt;
     line-height: 1.12;
     margin-bottom: 0.8mm;
+}
+
+.sb-contact {
+    display: flex;
+    align-items: center;
+    gap: 1.8mm;
+}
+
+.sb-icon {
+    width: 3.2mm;
+    height: 3.2mm;
+    flex-shrink: 0;
+    fill: #A9D2F5;
 }
 
 .sb-name {
@@ -215,11 +228,22 @@ ul.entry-list li {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 1.2mm;
+}
+
+.cert-code {
+    flex: 0 0 3em;
+    min-width: 0;
+    white-space: nowrap;
+    margin-right: 0mm;
+}
+
+.cert-name {
+    flex: 1;
 }
 
 .cert-badge {
     flex-shrink: 0;
+    margin-left: 1.2mm;
     display: inline-flex;
     color: #BFE1FF;
     text-decoration: none;
