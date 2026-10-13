@@ -1,7 +1,46 @@
-Ajouter Databricks in skills
+***********************************
+in my title "AI & Data Engineer"
+***********************************
+I need to be able to write at the top of my  resume sth like 
+2 masters 
+10x certifié par Microsoft
+5x certifié par AWS
+etc ...
+***********************************
+***********************************
+Il faut lister les compétence avec des parentèses 
+ex python(certifié), tensorflow(Expérimenté)...
+Ajouter la recommandation de sfil
+
+
+13 mois rather than 1 ans
+
+
+Plateforme EDF Energy Prediction — Pipeline MLOps de bout en bout pour la prévision de consommation électrique nationale
+Conçu un data lake Bronze/Silver/Gold (Spark + MinIO) orchestré par Airflow, avec réécriture dynamique par partition permettant un retraitement sélectif par année sans risque de perte de données.
+Entraîné et comparé 4 modèles de régression (Spark MLlib) ; modèle retenu (Random Forest) : RMSE 711 MW, R² 0,995.
+Mis en place des contrôles qualité automatisés et une traçabilité complète des runs (PostgreSQL).
+Développé de zéro un dashboard web (Flask) de pilotage : suivi temps réel du pipeline, supervision infra, intégration Grafana.
+Conteneurisé la stack complète (15+ services) via Docker Compose.
+Stack : Python · Airflow · Spark · Kafka · PostgreSQL · MinIO · Flask · Docker · Grafana
+
+
+ajoute Foundry
+ajouter caisse des dépots
+dans la section étude, il faut dire 1ere anné bachelor M1 embarqué M1 developpement web
+dans les certifications ajouter IBM
+demander a rayan ce qu'il a fait a sfil sur l'IA et ajouter le dans le CV
+
+trouver une facon pour ajouter la data dans TVES
+
+chercher les choses comme, changement de status
+
+Ajouter hackaton
+
+
+
 google big query
 
-supprime toeic at ajouete le directemant dans les langues
 ajouter postman tester les api
 jwt
-ajouet prompte engineering
+
