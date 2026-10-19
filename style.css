@@ -139,27 +139,57 @@ body {
     margin-top: 0;
 }
 
-.entry-title {
+.entry-head {
     margin-top: 1.7mm;
-    margin-bottom: 0.3mm;
-    font-size: 9.5pt;
+    margin-bottom: 0.7mm;
+    padding-left: 1.6mm;
+    border-left: 0.8mm solid #2E75B6;
 }
 
-.entry-title .job {
-    color: #222222;
+.entry-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 2mm;
+}
+
+.entry-head .job {
+    color: #1F3554;
     font-weight: bold;
+    font-size: 10pt;
 }
 
-.entry-title .org {
+.entry-head .tag {
+    display: inline-block;
+    margin-left: 1.5mm;
+    padding: 0 1.4mm;
+    border-radius: 1mm;
+    background: #E3F0FB;
     color: #2E75B6;
-    font-weight: normal;
+    font-size: 7.5pt;
+    font-weight: bold;
+    vertical-align: 0.15em;
+    line-height: 1.35;
 }
 
 .entry-date {
-    color: #555555;
+    flex-shrink: 0;
+    color: #1F3554;
+    font-weight: bold;
+    font-size: 8.5pt;
+}
+
+.entry-head .org {
+    color: #2E75B6;
+    font-weight: 600;
+    font-size: 9pt;
+}
+
+.entry-head .loc {
+    flex-shrink: 0;
+    color: #6B7A8C;
     font-style: italic;
     font-size: 8.5pt;
-    margin-bottom: 0.7mm;
 }
 
 ul.entry-list {
