@@ -122,6 +122,7 @@ body {
     flex-shrink: 0;
     color: #1F3554;
     font-weight: bold;
+    font-style: italic;
     font-size: 8.5pt;
 }
 
