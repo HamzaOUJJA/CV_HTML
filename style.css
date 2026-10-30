@@ -88,8 +88,6 @@ body {
 .entry-head {
     margin-top: 0.7mm;
     margin-bottom: 0.3mm;
-    padding-left: 1.6mm;
-    border-left: 0.8mm solid #2E75B6;
 }
 
 .entry-row {
@@ -230,7 +228,6 @@ ul.entry-list li {
 
 .kv.skills {
     margin-top: 0.7mm;
-    padding-left: 2.4mm;
     row-gap: 0;
 }
 
