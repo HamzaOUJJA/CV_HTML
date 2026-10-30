@@ -21,7 +21,7 @@ body {
     min-height: 297mm;
     margin: 0 auto;
     background: #fff;
-    border: 0.75pt solid #000000;
+    /*border: 0.75pt solid #000000;*/
     box-sizing: border-box;
 }
 
@@ -48,10 +48,10 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 1mm 5mm;
+    gap: 1mm 3mm;
     margin-top: 1.4mm;
     color: #333333;
-    font-size: 8.5pt;
+    font-size: 8pt;
 }
 
 .contact-item {
@@ -234,4 +234,11 @@ ul.entry-list li {
 .kv.skills .kv-label {
     color: #1F3554;
     font-size: 9pt;
+}
+
+.profile {
+    margin-top: 0.7mm;
+    color: #333333;
+    font-size: 8.5pt;
+    line-height: 1.2;
 }

@@ -1,5 +1,4 @@
 ***********************************
-in my title "AI & Data Engineer"
 ***********************************
 I need to be able to write at the top of my  resume sth like 
 2 masters
@@ -16,18 +15,8 @@ Ajouter la recommandation de sfil
 13 mois rather than 1 ans
 
 
-Plateforme EDF Energy Prediction — Pipeline MLOps de bout en bout pour la prévision de consommation électrique nationale
-Conçu un data lake Bronze/Silver/Gold (Spark + MinIO) orchestré par Airflow, avec réécriture dynamique par partition permettant un retraitement sélectif par année sans risque de perte de données.
-Entraîné et comparé 4 modèles de régression (Spark MLlib) ; modèle retenu (Random Forest) : RMSE 711 MW, R² 0,995.
-Mis en place des contrôles qualité automatisés et une traçabilité complète des runs (PostgreSQL).
-Développé de zéro un dashboard web (Flask) de pilotage : suivi temps réel du pipeline, supervision infra, intégration Grafana.
-Conteneurisé la stack complète (15+ services) via Docker Compose.
-Stack : Python · Airflow · Spark · Kafka · PostgreSQL · MinIO · Flask · Docker · Grafana
 
-
-dans la section étude, il faut dire 1ere anné bachelor M1 embarqué M1 developpement web
 dans les certifications ajouter IBM
-demander a rayan ce qu'il a fait a sfil sur l'IA et ajouter le dans le CV
 
 
 chercher les choses comme, changement de status
@@ -41,20 +30,13 @@ google big query
 ajouter postman tester les api
 jwt
 add MCP important
-il faut ajouterv d'autres choses a mon alternance de sfil pour rendre plus agréable
-add les projet mspr et dire (soutené devant jury)
 
-pour parler de mspr edf, un point dédier pour parler des métriques (RMSE MAPE etc)
 
-pour les certifications microsoft, il faut peu etre enlever les descriptions et laisser les codes seuelemrnt 
-dans mspr edf , parler des tests
 
 ajouter l'IA dans SFIL
 développer un site web hamza-oujja.com
 
-il faut rendre le text dans les bloc max width like in a word doc
 
-supprime machine learning deep learning reinforce ...
 
 Il faut pas mentir ni stage ni TVES
 
@@ -63,17 +45,12 @@ Mission R&D – Projet industriel (6 mois) pas Stage
 Projet industriel pour Ingenico (6 mois)
 
 
-change the photo
 
-ajouter les tests pour edf
-
-Pour les deux projets Data pipeline automatise et Big Data il faut fusionner
 
 supprimer IA dans SFIL titre
 
 ajouter bachelor dans linkedin pour esisar
 
-ajouter RGPD
 
 dans les compétences : REST API rather than API
 
@@ -93,4 +70,40 @@ supprimer les autres compétences comme nodejs express js et adapter le cv pour 
 
 
 spread the widths more to gain space
+
+
+
+
+il faut pas mentire sur la localisation , sinon en entretien ils vont poser la question pour savoir puis c'est contradiction
+
+
+
+
+
+
+
+<!-- <div class="entry-head">
+    <div class="entry-row">
+        <span class="job">Data Pipeline Automatisé<span class="link">github.com/HamzaOUJJA/Datamart</span></span>
+        <span class="entry-date">2026</span>
+    </div>
+</div>
+<div class="proj-body">Architecture BI bout en bout : Datalake (MinIO), Datawarehouse &amp; datamart (PostgreSQL), dashboard Power BI, orchestration Airflow, déploiement Docker.</div>
+
+<div class="entry-head">
+    <div class="entry-row">
+        <span class="job">Pipeline Big Data<span class="link">github.com/HamzaOUJJA/BigData</span></span>
+        <span class="entry-date">2026</span>
+    </div>
+</div>
+<div class="proj-body">Ingestion temps réel avec Kafka, traitement Spark, stockage MinIO, visualisations Power BI, déploiement Docker.</div>
+
+<div class="entry-head">
+    <div class="entry-row">
+        <span class="job">GeminiTalk<span class="tag">Chatbot interactif</span><span class="link">github.com/HamzaOUJJA/GeminiTalk</span></span>
+        <span class="entry-date">2026</span>
+    </div>
+</div>
+<div class="proj-body">Application web de chatbot en stack MERN avec les API Google Gemini.</div> -->
+
 
